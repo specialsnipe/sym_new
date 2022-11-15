@@ -18,6 +18,7 @@ class RequestTest extends TestCase
             $email = 'test@app.test',
             $hash = 'hash'
         );
+        
         self::assertEquals($id, $user->getId());
         self::assertEquals($email, $user->getEmail());
         self::assertEquals($hash, $user->getPasswordHash());
